@@ -13,6 +13,7 @@ import Category from './Pages/Category';
 import Footer from './Common/Footer';
 import CategorySingle from './Pages/CategorySingle';
 import Loader from './Common/Loader';
+import About from './Pages/About';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/blog_details/:id' element={<BlogDetails/>} />
           <Route path='/category' element={<Category/>} />
           <Route path='/category_details/:id' element={<CategorySingle/>} />
+          <Route path='/about' element={<About/>}/>
           
         </Routes>
         <Footer/>

@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form_container{
+  width: 500px;
+  background-color: beige;
+}
+.form_header{
+  background-color: rgb(7, 7, 112);
+  
+  padding: 30px;
+}
+.form_header h1{
+  color: beige;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+label{
+  font-size: 20px;
+  color: rgb(7, 7, 112);
+}
+input{
+  text-align: center;
+}
+
+p{
+  color: white;
+}
+
+.form_btn{
+  width: 100px;
+  margin: 10px;
+  font-size: 20px;
+  border: 2px solid;
+  border-radius: 30px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(7, 7, 112);
+}
+
+.form_btn:hover{
+  background-color: rgb(7, 7, 112);
+  color: bisque;
+  border: 1px solid;
+}
